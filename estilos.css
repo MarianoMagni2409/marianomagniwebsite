@@ -1,0 +1,54 @@
+/*header*/
+.navbar{
+    background-color: rgb(65, 65, 65);
+}
+
+.nav-link{
+    color: rgb(223, 223, 223) !important;
+}
+
+.jumbotron{
+    background-image: url(imagenes/fondo_home.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+
+h1{
+    color: white;
+    text-shadow: 0 0 3px #fff;
+}
+
+.jumbotron p{
+    color: white;
+    text-shadow: 0 0 3px #fff;
+}
+
+@media only screen and (min-width: 0) and (max-width:576px){
+    .navbar-collapse{
+        background-color: rgb(65, 65, 65) ;
+        display: flex;
+    }
+}
+/*body*/
+main{
+    background-color: rgb(255, 255, 255);
+    height: 450px;
+}
+/*footer*/
+footer{
+    background-color: rgb(68, 68, 68);
+    height: 110px;
+}
+
+.correo i{
+    color: white;
+}
+.instagram i{
+    color: white;
+}
+.linkedin i{
+    color: white;
+}
+
+
